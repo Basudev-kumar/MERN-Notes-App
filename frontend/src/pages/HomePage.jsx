@@ -1,5 +1,5 @@
 import { useState , useEffect } from 'react';
-import Navbar from '../components/NavBar.jsx';
+import Navbar from '../components/Navbar.jsx';
 import RateLimitedUI from '../components/RateLimitedUI';
 import axios from "axios";
 import toast from 'react-hot-toast';
