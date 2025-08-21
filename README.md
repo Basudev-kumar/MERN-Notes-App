@@ -1,4 +1,4 @@
-# ThinkMe – Notes App 🗒️
+# ThinkBoard – Notes App 🗒️
 
 A fully responsive, cloud-based Notes Management Application built with the MERN stack that allows users to create, view, and delete notes efficiently with real-time updates.
 
