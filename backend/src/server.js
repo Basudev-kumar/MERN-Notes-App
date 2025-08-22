@@ -141,8 +141,8 @@ if (process.env.NODE_ENV !== "production") {
 
 // ✅ Rate limiting (safe for free Render dynos)
 const limiter = rateLimit({
-  windowMs: 1 * 60 * 1000, // 1 min
-  max: 10,
+  windowMs: 15 * 60 * 1000, // 15 min
+  max: 20,
   message: "Too many requests, please try again later.",
 });
 app.use(limiter);
